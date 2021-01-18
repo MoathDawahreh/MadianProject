@@ -39,7 +39,8 @@
     /*color:black;*/
 
   align-items: center;
-  color:lightblue;
+  color:black;
+  /*padding: 40px;*/
 
   grid-template-columns: repeat(3, auto);
 
@@ -57,7 +58,7 @@ h1 {
 }
 
 .square{
-  
+
    border: 1px solid black;
    padding: 50px;
   display: flex;
