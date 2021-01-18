@@ -36,8 +36,6 @@
   justify-content: center;
 
   align-content: center;
-    /*color:black;*/
-
   align-items: center;
   color:black;
   /*padding: 40px;*/
@@ -58,10 +56,10 @@ h1 {
 }
 
 .square{
-
    border: 1px solid black;
    padding: 50px;
-  display: flex;
+  display: auto;
+  font-size: 40px;
 
   justify-content: center;
   align-items: center;
