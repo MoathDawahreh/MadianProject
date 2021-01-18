@@ -1,10 +1,71 @@
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv{
+
+   padding: 40px;
+  height: 100vh;
+  display: flex;
+
+    /*margin-top: center;*/
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  /*margin:  auto;*/
+
+}
+
+.TheGamesBox{
+
+
+  /*  margin-top: 40px;
+  display: flex;
+
+  flex-wrap: wrap;
+  width: 450px;*/
+
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+
+  align-content: center;
+    /*color:black;*/
+
+  align-items: center;
+  color:lightblue;
+
+  grid-template-columns: repeat(3, auto);
+
+}
 
 h1 {
   font-size: 44px;
-  font-family: "Roboto";
+  /*font-family: "Roboto";*/
+  font-family: Monoton;
 
+  /*margin: 0.1em;*/
+  /*margin: top;*/
   /*margin-top: center;*/
   text-align: center;
 }
 
+.square{
+  
+   border: 1px solid black;
+   padding: 50px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  cursor: pointer;
+
+}
