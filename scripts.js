@@ -15,7 +15,7 @@ var winPattern = [
 ]
 
 
-for (var i = 0.; i <boxes.length; i++) {
+for (var i = 0.; i < boxes.length; i++) {
   // console.log(boxes)
 
   // console.log(boxes[i])
@@ -42,6 +42,14 @@ for (var i = 0.; i <boxes.length; i++) {
         }else{
           console.log(false)
         }
+// loop to check each div content and match it
+        // for (var i = 0.; i < boxes.length; i++) {
+          
+
+        //   if (target.) {}
+        // }
+
+
 
 
         // console.log(event.target)
@@ -49,5 +57,9 @@ for (var i = 0.; i <boxes.length; i++) {
     }); 
 
 
+
+}
+
+function checkBoxes(){
 
 }
